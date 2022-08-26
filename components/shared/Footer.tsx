@@ -8,7 +8,7 @@ function Footer() {
       <div className="max-w-4xl m-auto grid grid-col-1 sm:grid-cols-2 justify-between items-start">
         {footer.columns.map((item, index) => {
           return (
-            <div key={index} className="text-center mb-5 sm:mb-0">
+            <div>
               {item.links.map((item, index) => {
                 return (
                   <span key={index} className="mr-8">
@@ -16,11 +16,10 @@ function Footer() {
                       <a
                         href={item.link}
                         target="_blank"
-                        rel="noreferrer noopener"
-                        className="items-left"
+                        className="inline-flex items-center"
                       >
                         {item.icon && (
-                          <span className="pr-4 mb-4">
+                          <span className="inline-flex items-center mr-2">
                             <Image src={item.icon} width={32} height={32} />
                           </span>
                         )}
@@ -36,9 +35,9 @@ function Footer() {
           );
         })}
       </div>
-      <div className="max-w-4xl m-auto mt-2 pt-2  ml-10 sm:mt-2 sm:pt-3 text-center">
+      <div className="max-w-4xl m-auto mt-2 pt-2 ml-10 sm:mt-2 sm:pt-3 text-center">
         <p className="flex flex-col items-center justify-center">
-          <div className="items-center uppercase text-xs font-bold tracking-widest ">
+          <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
               <span>
