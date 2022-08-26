@@ -4,8 +4,8 @@ import { footer } from "../../types/global";
 
 function Footer() {
   return (
-    <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
-      <div className="w-full max-w-4xl m-auto grid grid-cols-2 sm:grid-cols-3 justify-between items-start">
+    <footer className="flex flex-row w-screen px-5 py-4 mt-2 border-t border-fun-pink-darker z-5 bg-bg-primary">
+      <div className="w-full max-w-4xl m-auto grid grid-rows-1 sm:grid-cols-2 justify-between items-start">
         {footer.columns.map((item, index) => {
           return (
             <div key={index} className="text-left mb-5 sm:mb-0">
@@ -40,8 +40,8 @@ function Footer() {
           );
         })}
       </div>
-      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
-        <p className="flex flex-col items-center justify-center ">
+      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-12 text-center">
+        <p className="flex flex-row items-center justify-center ">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
@@ -72,33 +72,23 @@ function Footer() {
               </span>
             </div>
           </div>
-          <div className="mt-2 text-xs ">
-            Made by{" "}
-            <a
-              href="mailto:contact@mitchaplin@gmail.com"
-              className="text-fun-gray-light font-medium"
-            >
-              Mitch Aplin
-            </a>
-            . All rights reserved.
-          </div>
         </p>
-      </div>
-      <div className="mt-8 text-center sm:text-right sm:-mt-12">
-        <a
-          className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
-          href="https://github.com/mitchaplin/portfolio"
-          target="_blank"
-          rel="nooreferrer"
-        >
-          <Image
-            src="/static/icons/github.svg"
-            width={16}
-            height={16}
-            alt="Github Icon"
-          />
-          <span className="ml-2">View Source Code</span>
-        </a>
+        <div className="mt-8 text-center sm:text-right sm:-mt-12">
+          <a
+            className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
+            href="https://github.com/mitchaplin/portfolio"
+            target="_blank"
+            rel="nooreferrer"
+          >
+            <Image
+              src="/static/icons/github.png"
+              width={32}
+              height={32}
+              alt="Github Icon"
+            />
+            <span className="ml-2">View Source Code</span>
+          </a>
+        </div>
       </div>
     </footer>
   );
