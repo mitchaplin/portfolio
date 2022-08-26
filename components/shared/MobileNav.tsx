@@ -39,11 +39,7 @@ export default function MobileNavbar() {
       >
         <li className="list-none font-bold text-lg">
           <Link href="/">
-            <img
-              className="mr-3"
-              src="/static/logos/logo_full.svg"
-              width="160"
-            />
+            <img className="mr-3" src="/static/images/me.jpg" width="160" />
           </Link>
         </li>
         <button
@@ -58,7 +54,7 @@ export default function MobileNavbar() {
       </div>
       {isMenuMounted && (
         <ul
-          className={`menu flex flex-col absolute bg-bg
+          className={`menu flex flex-col absolute bg-bg-primary
             ${isMenuRendered && "border-gray-600 w-full menuRendered"}`}
         >
           {routes.map((item: any, index: number) => {

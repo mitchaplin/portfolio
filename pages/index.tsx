@@ -6,14 +6,11 @@ export default function Home() {
     <Page
       currentPage="Home"
       meta={{
-        desc: "I'm a Software Engineer that enjoying creating things.",
+        desc: "I'm a Software Engineer that enjoys creating things and solving problems.",
       }}
     >
       <Hero />
-      <div className="mt-20 space-y-32">
-        {/* Wrap All Subcomponents in here */}
-      </div>
-      {/* <Footer /> */}
+      <div className="space-y-32">test</div>
     </Page>
   );
 }

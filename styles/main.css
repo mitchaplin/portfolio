@@ -118,6 +118,15 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@keyframes breathe {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -134,13 +143,16 @@ body::-webkit-scrollbar-thumb {
   animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
 }
 
-.heroElem .icon:not(.icon-hero-pop1) {
-  animation: float 2s infinite ease-in-out;
+
+.heroElem .icon {
+  animation: float  2s infinite ease-in-out;
 }
+
 .heroTitle .icon {
   @apply scale-[0.8] lg:scale-100;
 }
 
 .icon {
-  @apply absolute z-[-10];
+  @apply absolute z-[10];
+  animation: breathe 2s;
 }

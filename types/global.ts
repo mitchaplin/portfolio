@@ -32,21 +32,6 @@ export const routes: Route[] = [
 export const footer: Footer = {
   columns: [
     {
-      title: "Pages",
-      links: [
-        {
-          name: "Home",
-          link: "/",
-          leavesWebsite: false,
-        },
-        {
-          name: "Projects",
-          link: "/projects",
-          leavesWebsite: false,
-        },
-      ],
-    },
-    {
       title: "Social",
       links: [
         {
@@ -57,7 +42,7 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/mitchaplin/",
+          link: "https://www.linkedin.com",
           icon: "/static/icons/linkedin.png",
           leavesWebsite: true,
         },
