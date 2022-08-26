@@ -10,7 +10,7 @@ export default function Home() {
       }}
     >
       <Hero />
-      <div className="space-y-32">test</div>
+      {/* <div className="space-y-32">test</div> */}
     </Page>
   );
 }

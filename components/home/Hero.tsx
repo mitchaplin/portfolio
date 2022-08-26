@@ -32,24 +32,23 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[14rem] lg:right-[20rem] w-[6rem]"
+            className="icon lg:block hidden lg:top-[36rem] lg:right-[20rem] w-[6rem]"
             style={{ animationDelay: "0.1s" }}
             src="/static/icons/clojure.png"
           />
         </a>
         <img
-          className="icon lg:block hidden lg:top-[16rem] lg:right-[6rem] w-[4rem]"
+          className="icon lg:block hidden lg:top-[28rem] lg:right-[12rem] w-[4rem]"
           style={{ animationDelay: "0.2s" }}
           src="/static/icons/js.png"
         />
         <img
-          className="icon lg:block hidden lg:bottom-[-24rem] lg:right-[-4rem] w-[12rem]"
+          className="icon lg:block hidden lg:top-[36rem] lg:right-[4rem] w-[12rem]"
           style={{ animationDelay: "0.3s" }}
           src="/static/icons/node.png"
-          onClick={() => console.log("clicked")}
         />
         <img
-          className="icon lg:block hidden lg:bottom-[-16rem] lg:left-[20rem] w-[6rem]"
+          className="icon lg:block hidden lg:top-[32rem] lg:right-[42rem] w-[6rem]"
           style={{ animationDelay: "0.4s" }}
           src="/static/icons/git.png"
         />
@@ -69,26 +68,26 @@ const Hero = () => {
           src="/static/icons/react.png"
         />
         <img
-          className="icon lg:block hidden lg:top-[36rem] lg:left-[12rem] w-[6rem]"
+          className="icon lg:block hidden lg:top-[20rem] lg:left-[6rem] w-[6rem]"
           style={{ animationDelay: "0.8s" }}
           src="/static/icons/reactnative.png"
         />
         <img
-          className="icon lg:block hidden lg:left-[-8rem] lg:bottom-[-10rem] w-[6rem]"
+          className="icon lg:block hidden lg:top-[20rem] lg:right-[8rem] w-[6rem]"
           style={{ animationDelay: "0.9s" }}
           src="/static/icons/ts.png"
         />
         <img
-          className="icon lg:block hidden lg:left w-[6rem]"
+          className="icon lg:block hidden lg:top-[40rem] lg:right-[48rem] w-[10rem]"
           style={{ animationDelay: "1.0s" }}
           src="/static/icons/next.png"
         />
         <img
-          className="icon lg:block hidden lg:left-[-8rem] lg:bottom-[-10rem] w-[6rem]"
+          className="icon lg:block hidden lg:top-[25rem] lg:left-[16rem] w-[6rem]"
           style={{ animationDelay: "1.1" }}
           src="/static/icons/jira.png"
         />
-        <div className="flex flex-row ">
+        <div className="flex flex-row">
           <Link
             activeClass="active"
             className="mr-[2rem] text-blue-light"
@@ -103,7 +102,7 @@ const Hero = () => {
           </Link>
           <Link
             activeClass="active"
-            className=" text-blue-light "
+            className=" text-blue-light"
             to="learnmore"
             spy={true}
             smooth={true}
