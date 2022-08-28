@@ -25,10 +25,11 @@ const Hero = () => {
               Full <span className=" text-blue-light ">Stack</span>
             </span>
           </div>
-        </h1>{" "}
+        </h1>
         <a
-          href={"https://google.com"}
+          href={"https://clojure.org/"}
           target="_blank"
+          rel="noreferrer noopener"
           className="items-left flex"
         >
           <img
@@ -37,56 +38,126 @@ const Hero = () => {
             src="/static/icons/clojure.png"
           />
         </a>
-        <img
-          className="icon lg:block hidden lg:top-[28rem] lg:right-[12rem] w-[4rem]"
-          style={{ animationDelay: "0.2s" }}
-          src="/static/icons/js.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[36rem] lg:right-[4rem] w-[12rem]"
-          style={{ animationDelay: "0.3s" }}
-          src="/static/icons/node.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[32rem] lg:right-[42rem] w-[6rem]"
-          style={{ animationDelay: "0.4s" }}
-          src="/static/icons/git.png"
-        />
-        <img
-          className="icon lg:block hidden lg:left-[1rem] lg:bottom-[-18rem] w-[12rem]"
-          style={{ animationDelay: "0.5s" }}
-          src="/static/icons/postgres.png"
-        />
-        <img
-          className="icon lg:block hidden lg:bottom-[-24rem] lg:right-[32rem] w-[16rem]"
-          style={{ animationDelay: "0.6s" }}
-          src="/static/icons/prisma.png"
-        />
-        <img
-          className="icon lg:block hidden lg:left-[36rem] lg:bottom-[-12rem] w-[8rem]"
-          style={{ animationDelay: "0.7s" }}
-          src="/static/icons/react.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[20rem] lg:left-[6rem] w-[6rem]"
-          style={{ animationDelay: "0.8s" }}
-          src="/static/icons/reactnative.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[20rem] lg:right-[8rem] w-[6rem]"
-          style={{ animationDelay: "0.9s" }}
-          src="/static/icons/ts.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[40rem] lg:right-[48rem] w-[10rem]"
-          style={{ animationDelay: "1.0s" }}
-          src="/static/icons/next.png"
-        />
-        <img
-          className="icon lg:block hidden lg:top-[25rem] lg:left-[16rem] w-[6rem]"
-          style={{ animationDelay: "1.1" }}
-          src="/static/icons/jira.png"
-        />
+        <a
+          href={"https://www.javascript.com/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[28rem] lg:right-[12rem] w-[4rem]"
+            style={{ animationDelay: "0.2s" }}
+            src="/static/icons/js.png"
+          />
+        </a>
+        <a
+          href={"https://nodejs.org/en/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[36rem] lg:right-[4rem] w-[12rem]"
+            style={{ animationDelay: "0.3s" }}
+            src="/static/icons/node.png"
+          />
+        </a>
+        <a
+          href={"https://git-scm.com/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[32rem] lg:right-[42rem] w-[6rem]"
+            style={{ animationDelay: "0.4s" }}
+            src="/static/icons/git.png"
+          />
+        </a>
+        <a
+          href={"https://www.postgresql.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:left-[1rem] lg:bottom-[-18rem] w-[12rem]"
+            style={{ animationDelay: "0.5s" }}
+            src="/static/icons/postgres.png"
+          />
+        </a>
+        <a
+          href={"https://www.prisma.io/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:bottom-[-24rem] lg:right-[32rem] w-[16rem]"
+            style={{ animationDelay: "0.6s" }}
+            src="/static/icons/prisma.png"
+          />
+        </a>
+        <a
+          href={"https://reactjs.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:left-[36rem] lg:bottom-[-12rem] w-[8rem]"
+            style={{ animationDelay: "0.7s" }}
+            src="/static/icons/react.png"
+          />
+        </a>
+        <a
+          href={"https://reactnative.dev/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[20rem] lg:left-[6rem] w-[6rem]"
+            style={{ animationDelay: "0.8s" }}
+            src="/static/icons/reactnative.png"
+          />
+        </a>
+        <a
+          href={"https://www.typescriptlang.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[20rem] lg:right-[8rem] w-[6rem]"
+            style={{ animationDelay: "0.9s" }}
+            src="/static/icons/ts.png"
+          />
+        </a>
+        <a
+          href={"https://nextjs.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[40rem] lg:right-[48rem] w-[10rem]"
+            style={{ animationDelay: "1.0s" }}
+            src="/static/icons/next.png"
+          />
+        </a>
+        <a
+          href={"https://www.atlassian.com/software/jira"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="items-left flex"
+        >
+          <img
+            className="icon lg:block hidden lg:top-[25rem] lg:left-[16rem] w-[6rem]"
+            style={{ animationDelay: "1.1" }}
+            src="/static/icons/jira.png"
+          />
+        </a>
         <div className="flex flex-row">
           <Link
             activeClass="active"
