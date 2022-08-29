@@ -1,4 +1,5 @@
-import { Link } from "react-scroll";
+import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -140,7 +141,7 @@ const Hero = () => {
         </a>
 
         <div className="flex flex-row">
-          <Link
+          <ScrollLink
             activeClass="active"
             className="mr-[2rem] text-blue-light"
             to="aboutme"
@@ -151,15 +152,8 @@ const Hero = () => {
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-white border-2 text-xl rounded-full border-blue-light bg-bg-primary  hover:bg-gray-darker hover:text-white">
               <span className=" text-blue-light">More About Me</span>
             </div>
-          </Link>
-          <Link
-            activeClass="active"
-            className=" text-blue-light"
-            to="learnmore"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
+          </ScrollLink>
+          <Link className=" text-blue-light" href="/projects">
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-white border-2 text-xl rounded-full border-blue-light bg-bg-primary hover:bg-gray-darker hover:text-white">
               <span className=" text-blue-light">My Projects</span>
             </div>

@@ -5,7 +5,7 @@ import { kebabCase } from "../../data/utils";
 export const ProjectCard = ({ project }: any) => {
   return (
     <div
-      className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"
+      className="max-w-sm flex flex-col projects-center md:projects-start md:justify-center"
       key={project.id}
     >
       <a
@@ -13,30 +13,34 @@ export const ProjectCard = ({ project }: any) => {
         target="_blank"
         className={`w-full relative rounded-xl border-gray border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-darker=gray will-change-projectCard`}
       >
-        <img className="w-full rounded-md" src={project.img} />
+        <img className="w-full rounded-md h-40" src={project.img} />
       </a>
       <div className="w-full mt-5">
         <div className="flex projects-center justify-between">
           <a href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
-          <div className="space-x-2">
+          <div className="space-x-4">
             {project.link && (
-              <a href={project.link} target="_blank" rel="noreferrer">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <Image
-                  src="/static/icons/external-link.svg"
-                  width={16}
-                  height={16}
-                  alt="Link Icon"
+                  src="/static/icons/link.png"
+                  width={24}
+                  height={24}
+                  alt="Github Icon"
                 />
               </a>
             )}
             {project.github && (
-              <a href={project.github} target="_blank" rel="noreferrer">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
-                  src="/static/icons/github.svg"
-                  width={16}
-                  height={16}
+                  src="/static/icons/github.png"
+                  width={24}
+                  height={24}
                   alt="Github Icon"
                 />
               </a>
@@ -49,7 +53,7 @@ export const ProjectCard = ({ project }: any) => {
             return (
               <li key={tag}>
                 <Link href={`/projects/tag/${kebabCase(tag)}`}>
-                  <div className="m-1 rounded-lg text-sm bg-dark-gray py-1 px-2 cursor-pointer hover:opacity-75">
+                  <div className="m-1 rounded-lg text-sm bg-blue-dark py-1 px-2 cursor-pointer hover:opacity-75">
                     {tag}
                   </div>
                 </Link>
