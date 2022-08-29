@@ -1,3 +1,5 @@
+import { kebabCase } from "./utils";
+
 type Route = {
   title: string;
   path: string;
@@ -170,3 +172,44 @@ export const technologies: Technology[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/intellij/intellij-original.svg",
   },
 ];
+
+export type Project = {
+  id: number;
+  title: string;
+  desc: string;
+  img: string;
+  link?: string;
+  github?: string;
+  tags: string[];
+};
+
+const projects: Project[] = [
+  {
+    id: 0,
+    title: "Soft Rain",
+    desc: "A weather app leveraging OpenWeatherApi,",
+    img: "/static/images/soft-rain-ss.png",
+    link: "https://github.com/mitchaplin/soft-rain",
+    github: "https://github.com/mitchaplin/soft-rain",
+    tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
+  },
+  {
+    id: 1,
+    title: "Soft Rain",
+    desc: "A weather app leveraging OpenWeatherApi,",
+    img: "/static/images/soft-rain-ss.png",
+    link: "https://github.com/mitchaplin/soft-rain",
+    github: "https://github.com/mitchaplin/soft-rain",
+    tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
+  },
+];
+
+export const tags: string[] = [];
+
+projects.forEach((project: Project) => {
+  project.tags.map((tag: string) => !tags.includes(tag) && tags.push(tag));
+});
+
+export const allKebabTags = tags.map((tag) => kebabCase(tag));
+
+export default projects;

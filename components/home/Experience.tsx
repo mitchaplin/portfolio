@@ -22,7 +22,7 @@ const Experience = () => {
                 className="w-10 mx-auto flex items-center flex-col justify-center"
               >
                 <img src={item.icon} style={item.style} />
-                <p className="text-xs text-fun-gray font-bold mt-3 opacity-80">
+                <p className="text-xs text-gray font-bold mt-3 opacity-80">
                   {item.title}
                 </p>
               </div>
@@ -44,7 +44,7 @@ const Experience = () => {
                 className="w-10 mx-auto flex items-center flex-col justify-center"
               >
                 <img src={item.icon} style={item.style} />
-                <p className="text-xs text-fun-gray font-bold mt-3 opacity-80">
+                <p className="text-xs text-gray font-bold mt-3 opacity-80">
                   {item.title}
                 </p>
               </div>

@@ -148,7 +148,7 @@ const Hero = () => {
             smooth={true}
             duration={500}
           >
-            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-blue-light bg-bg-primary  hover:bg-gray-darker hover:text-white">
+            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-white border-2 text-xl rounded-full border-blue-light bg-bg-primary  hover:bg-gray-darker hover:text-white">
               <span className=" text-blue-light">More About Me</span>
             </div>
           </Link>
@@ -160,7 +160,7 @@ const Hero = () => {
             smooth={true}
             duration={500}
           >
-            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-blue-light bg-bg-primary hover:bg-gray-darker hover:text-white">
+            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-white border-2 text-xl rounded-full border-blue-light bg-bg-primary hover:bg-gray-darker hover:text-white">
               <span className=" text-blue-light">My Projects</span>
             </div>
           </Link>

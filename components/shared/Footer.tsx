@@ -36,38 +36,6 @@ function Footer() {
         })}
       </div>
       <div className="max-w-4xl m-auto mt-2 pt-2 ml-10 sm:mt-2 sm:pt-3 text-center">
-        <p className="lg:block hidden flex flex-col items-center justify-center">
-          <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
-            Made with{" "}
-            <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  width="26"
-                  title="React"
-                />
-                <span className="sr-only">React</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-                  width="40"
-                  className="invert"
-                  title="NextJS"
-                />
-                <span className="sr-only">NextJS</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  width="26"
-                  title="TailwindCSS"
-                />
-                <span className="sr-only">TailwindCSS</span>
-              </span>
-            </div>
-          </div>
-        </p>
         <div className="mt-8 mb-4">
           <a
             className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border px-4 py-2 rounded-xl text-gray cursor-pointer"

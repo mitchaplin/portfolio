@@ -33,7 +33,6 @@ body::-webkit-scrollbar-thumb {
   height: 4px;
   width: 100vw;
   background: #000;
-  /* @apply bg-fun-pink; */
 }
 
 @media (max-width: 768px) {
@@ -45,7 +44,6 @@ body::-webkit-scrollbar-thumb {
     height: 8px;
     width: 150px;
     background: #000;
-    /* @apply bg-fun-pink; */
   }
 }
 
