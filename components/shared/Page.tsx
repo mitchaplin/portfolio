@@ -3,13 +3,13 @@ import Footer from "./Footer";
 import MobileNavbar from "./MobileNav";
 import Navbar from "./Nav";
 
-function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
+function Page({ defaultPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
-    currentPage === "Home"
+    defaultPage === "Home"
       ? "Mitch Aplin - Software Engineer."
-      : `${currentPage} - mitchaplin.dev`
+      : `${defaultPage} - mitchaplin.dev`
   }`;
-  console.log(currentPage);
+  console.log(defaultPage);
   return (
     <div
       className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"
@@ -37,7 +37,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
       </Head>
       <main className="p-5 w-full flex-1 text-center">
         <div className="hidden sm:block z-100">
-          <Navbar currentPage={currentPage} />
+          <Navbar defaultPage={defaultPage} />
         </div>
         <div className="-m-5 block sm:hidden z-100">
           <MobileNavbar />
@@ -52,7 +52,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
 export default Page;
 
 type PageProps = {
-  currentPage: string;
+  defaultPage: string;
   meta: {
     title?: string;
     desc: string;

@@ -10,18 +10,21 @@ const Hero = () => {
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold">
           <div className="flex">
             <img
-              className="lg:block hidden w-[12rem] mr-[2rem] rounded"
+              className="visible lg:block hidden sm:block w-[12rem] mr-[2rem] rounded"
               style={{ animationDelay: "0.3s" }}
               src="/static/images/me.jpg"
             />
-            <span className=" text-white mt-[1rem] hover:text-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
-              Mitch <span className=" text-blue-light">Aplin</span>
+            <span className=" text-white mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+              Mitch <span className=" text-blue-light ">Aplin</span>
             </span>
-            <div className=" text-blue-light mt-[1rem] hover:text-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
+            <div className=" text-blue-light mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
               Software
-              <span className=" text-white"> Engineer</span>
+              <span className=" text-white hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+                {" "}
+                Engineer
+              </span>
             </div>
-            <span className=" text-white mt-[1rem] hover:text-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
+            <span className=" text-white mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
               Full <span className=" text-blue-light ">Stack</span>
             </span>
           </div>
@@ -33,9 +36,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[36rem] lg:right-[20rem] w-[6rem]"
+            className="icon lg:block hidden lg:top-[38rem] lg:right-[44rem] w-[6rem]"
             style={{ animationDelay: "0.1s" }}
-            src="/static/icons/clojure.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
           />
         </a>
         <a
@@ -45,9 +48,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[28rem] lg:right-[12rem] w-[4rem]"
+            className="icon lg:block hidden lg:top-[38rem] lg:right-[10rem] w-[6rem]"
             style={{ animationDelay: "0.2s" }}
-            src="/static/icons/js.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           />
         </a>
         <a
@@ -57,9 +60,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[36rem] lg:right-[4rem] w-[12rem]"
+            className="icon lg:block hidden lg:top-[24rem] lg:right-[14rem] w-[12rem]"
             style={{ animationDelay: "0.3s" }}
-            src="/static/icons/node.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/nodejs/nodejs-original-wordmark.svg"
           />
         </a>
         <a
@@ -69,9 +72,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[32rem] lg:right-[42rem] w-[6rem]"
+            className="icon lg:block hidden lg:top-[28rem] lg:right-[44rem] w-[6rem]"
             style={{ animationDelay: "0.4s" }}
-            src="/static/icons/git.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
           />
         </a>
         <a
@@ -81,23 +84,12 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:left-[1rem] lg:bottom-[-18rem] w-[12rem]"
+            className="icon lg:block hidden lg:top-[38em] lg:right-[56rem] w-[8rem]"
             style={{ animationDelay: "0.5s" }}
-            src="/static/icons/postgres.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
           />
         </a>
-        <a
-          href={"https://www.prisma.io/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:bottom-[-24rem] lg:right-[32rem] w-[16rem]"
-            style={{ animationDelay: "0.6s" }}
-            src="/static/icons/prisma.png"
-          />
-        </a>
+
         <a
           href={"https://reactjs.org/"}
           target="_blank"
@@ -105,9 +97,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:left-[36rem] lg:bottom-[-12rem] w-[8rem]"
-            style={{ animationDelay: "0.7s" }}
-            src="/static/icons/react.png"
+            className="icon lg:block hidden lg:top-[28rem] lg:right-[58rem] w-[6rem]"
+            style={{ animationDelay: "0.6s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
         </a>
         <a
@@ -117,8 +109,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[20rem] lg:left-[6rem] w-[6rem]"
-            style={{ animationDelay: "0.8s" }}
+            className="icon lg:block hidden lg:top-[28rem] lg:right-[32rem] w-[6rem]"
+            style={{ animationDelay: "0.7s" }}
             src="/static/icons/reactnative.png"
           />
         </a>
@@ -129,9 +121,9 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[20rem] lg:right-[8rem] w-[6rem]"
-            style={{ animationDelay: "0.9s" }}
-            src="/static/icons/ts.png"
+            className="icon lg:block hidden lg:top-[28rem] lg:right-[4rem] w-[6rem]"
+            style={{ animationDelay: "0.8s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
         </a>
         <a
@@ -141,28 +133,17 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[40rem] lg:right-[48rem] w-[10rem]"
-            style={{ animationDelay: "1.0s" }}
-            src="/static/icons/next.png"
+            className="icon lg:block hidden lg:top-[36rem] lg:right-[24rem] w-[10rem]"
+            style={{ animationDelay: "0.09s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
           />
         </a>
-        <a
-          href={"https://www.atlassian.com/software/jira"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[25rem] lg:left-[16rem] w-[6rem]"
-            style={{ animationDelay: "1.1" }}
-            src="/static/icons/jira.png"
-          />
-        </a>
+
         <div className="flex flex-row">
           <Link
             activeClass="active"
             className="mr-[2rem] text-blue-light"
-            to="learnmore"
+            to="aboutme"
             spy={true}
             smooth={true}
             duration={500}

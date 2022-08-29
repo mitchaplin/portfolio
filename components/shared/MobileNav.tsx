@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import useDelayedRender from "use-delayed-render";
-import { routes } from "../../types/global";
+import { routes } from "../../data/global";
 
 export default function MobileNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

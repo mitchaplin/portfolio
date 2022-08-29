@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { footer } from "../../types/global";
+import { footer } from "../../data/global";
 
 function Footer() {
   return (
-    <footer className="flex flex-row bg-bg-primary">
-      <div className="max-w-4xl m-auto grid grid-col-1 sm:grid-cols-2 justify-between items-start">
+    <footer className="flex flex-row bg-bg-primary m-5">
+      <div className="max-w-4xl m-auto grid grid-col-1 sm:grid-cols-2 justify-between items-start pt-8">
         {footer.columns.map((item, index) => {
           return (
-            <div>
+            <div key={index}>
               {item.links.map((item, index) => {
                 return (
                   <span key={index} className="mr-8">
@@ -36,7 +36,7 @@ function Footer() {
         })}
       </div>
       <div className="max-w-4xl m-auto mt-2 pt-2 ml-10 sm:mt-2 sm:pt-3 text-center">
-        <p className="flex flex-col items-center justify-center">
+        <p className="lg:block hidden flex flex-col items-center justify-center">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
@@ -68,18 +68,17 @@ function Footer() {
             </div>
           </div>
         </p>
-        <div className="mt-8 mb-8">
+        <div className="mt-8 mb-4">
           <a
-            className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
+            className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border px-4 py-2 rounded-xl text-gray cursor-pointer"
             href="https://github.com/mitchaplin/portfolio"
             target="_blank"
             rel="nooreferrer"
           >
-            <Image
-              src="/static/icons/github.png"
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/github/github-original.svg"
               width={32}
               height={32}
-              alt="Github Icon"
             />
             <span className="ml-2">View Source Code</span>
           </a>

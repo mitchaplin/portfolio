@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { routes } from "../../types/global";
+import { routes } from "../../data/global";
 
 const Nav = ({ currentPage }: any) => {
   return (
