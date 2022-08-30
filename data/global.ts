@@ -187,7 +187,7 @@ const projects: Project[] = [
   {
     id: 0,
     title: "Portfolio",
-    desc: "My personal portfolio",
+    desc: "This site! My personal portfolio",
     img: "/static/images/folio.png",
     link: "https://mitchaplin.dev",
     github: "https://github.com/mitchaplin/portfolio",
@@ -213,7 +213,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Advent of Code",
-    desc: "The repo that houses Advent of Code solutions",
+    desc: "Advent of Code solutions over several years crafted in Clojure",
     img: "/static/images/AOC.PNg",
     github: "https://github.com/mitchaplin/advent-of-code",
     tags: ["Clojure"],
