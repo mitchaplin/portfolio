@@ -49,6 +49,7 @@ module.exports = {
       },
       willChange: {
         projectCard: "border-color, opacity, transform",
+        footerLink:  "border-color, transform",
       },
     },
   },

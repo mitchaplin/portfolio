@@ -16,7 +16,7 @@ function Footer() {
                       <a
                         href={item.link}
                         target="_blank"
-                        className="inline-flex items-center"
+                        className="inline-flex items-center transition hover:-translate-y-2 hover:opacity-75 hover:border-darker=gray will-change-footerLink"
                       >
                         {item.icon && (
                           <span className="inline-flex items-center mr-2">
@@ -38,7 +38,7 @@ function Footer() {
       <div className="max-w-4xl m-auto mt-2 pt-2 ml-10 sm:mt-2 sm:pt-3 text-center">
         <div className="mt-8 mb-4">
           <a
-            className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border px-4 py-2 rounded-xl text-gray cursor-pointer"
+            className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border px-4 py-2 rounded-xl text-gray cursor-pointer transition hover:-translate-y-2 hover:opacity-75 hover:border-darker=gray will-change-footerLink"
             href="https://github.com/mitchaplin/portfolio"
             target="_blank"
             rel="nooreferrer"
