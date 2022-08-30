@@ -187,7 +187,7 @@ const projects: Project[] = [
   {
     id: 0,
     title: "Portfolio",
-    desc: "This site! My personal portfolio",
+    desc: "You're here! My personal portfolio",
     img: "/static/images/folio.png",
     link: "https://mitchaplin.dev",
     github: "https://github.com/mitchaplin/portfolio",
