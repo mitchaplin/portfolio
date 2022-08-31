@@ -54,7 +54,7 @@ export const FilteredProjects = ({ filteredProjects, tag }: any) => {
   
         <Link href="/projects">
           <div className="mt-8 max-w-sm md:max-w-2xl border border-white mx-auto text-center w-full whitespace-nowrap px-8 py-3 rounded-full text-white bg-dark-gray hover:bg-gray-darker hover:text-white transition-colors cursor-pointer">
-            View All
+            View All 
           </div>
         </Link>
       </Page>
