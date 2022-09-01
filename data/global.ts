@@ -194,7 +194,7 @@ const projects: Project[] = [
     img: "/static/images/folio.png",
     link: "https://mitchaplin.dev",
     github: "https://github.com/mitchaplin/portfolio",
-    tags: ["NextJS", "React", "Typescript", "Tailwind"],
+    tags: ["NextJS", "React", "Typescript",  "Javascript", "Tailwind", "Git"],
   },
   {
     id: 1,
@@ -206,20 +206,22 @@ const projects: Project[] = [
     tags: [
       "React",
       "Typescript",
+      "Javascript",
       "Mantine UI",
       "Google Places",
       "Firebase",
       "React Query",
       "React Charts",
+      "Git"
     ],
   },
   {
     id: 2,
     title: "Advent of Code",
-    desc: "Advent of Code solutions over several years crafted in Clojure",
+    desc: "AoC solutions spanning several years; Crafted in Clojure",
     img: "/static/images/AOC.PNg",
     github: "https://github.com/mitchaplin/advent-of-code",
-    tags: ["Clojure"],
+    tags: ["Clojure", "Git"],
   },
 ];
 
