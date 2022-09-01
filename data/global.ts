@@ -219,7 +219,7 @@ const projects: Project[] = [
     id: 2,
     title: "Advent of Code",
     desc: "AoC solutions spanning several years; Crafted in Clojure",
-    img: "/static/images/AOC.PNg",
+    img: "/static/images/aoc.png",
     github: "https://github.com/mitchaplin/advent-of-code",
     tags: ["Clojure", "Git"],
   },
