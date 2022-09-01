@@ -189,7 +189,9 @@ export const Resume = () => {
 
               <section className="mb-6">
                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                  Nov. 2018 - Present:
+                  <div>Present</div>
+                  <div>-</div>
+                  <div>Nov. 2018</div>
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   Software Engineer
@@ -239,8 +241,8 @@ export const Resume = () => {
                   As a full stack engineer, I've worn many hats during my 4+
                   years at Singlewire Software. I have been privileged to be a
                   part of several diverse teams, and worked on many truly unique
-                  and interesting projects. Some of these include React Porting
-                  from Angular.js code, integration efforts with many different
+                  and interesting projects. Some of these include React porting
+                  from Angular.js, integration efforts with many different
                   companies including Microsoft, Twilio, Bandwidth, and
                   RapidSOS, and microservice creation.
                 </div>
@@ -252,7 +254,6 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   <ul className="flex flex-wrap items-center list-none">
                     {softwareEngineer.map((tech: string) => {
-                      console.log(tech);
                       const usedInPersonal = tagPresent(kebabCase(tech));
                       return (
                         <li className="mr-2 mb-2">
@@ -299,10 +300,11 @@ export const Resume = () => {
                   </a>
                 </div>
               </section>
-
               <section className="mb-6">
                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                  Jul.&nbsp;2015:
+                  <div>Nov. 2018</div>
+                  <div>-</div>
+                  <div>Jul. 2015</div>
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   Software Test Engineer
