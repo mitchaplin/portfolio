@@ -9,7 +9,6 @@ function Page({ defaultPage, meta: { title, desc }, children }: PageProps) {
       ? "Mitch Aplin - Software Engineer."
       : `${defaultPage} - mitchaplin.dev`
   }`;
-  console.log(defaultPage);
   return (
     <div
       className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"

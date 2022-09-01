@@ -274,7 +274,7 @@ export const Resume = () => {
                             <div
                               className={`rounded-lg text-sm bg-${
                                 usedInPersonal
-                                  ? "blue-darker cursor-pointer"
+                                  ? "blue-dark cursor-pointer"
                                   : "bg-primary"
                               } py-1 px-2 hover:opacity-75`}
                             >
@@ -371,7 +371,6 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   <ul className="flex flex-wrap items-center list-none">
                     {softwareTestEngineer.map((tech: string) => {
-                      console.log(tech);
                       const usedInPersonal = tagPresent(kebabCase(tech));
                       return (
                         <li className="mr-2 mb-2">
@@ -386,7 +385,7 @@ export const Resume = () => {
                             <div
                               className={`rounded-lg text-sm bg-${
                                 usedInPersonal
-                                  ? "blue-darker cursor-pointer"
+                                  ? "blue-dark cursor-pointer"
                                   : "bg-primary"
                               } py-1 px-2 hover:opacity-75`}
                             >
