@@ -1,8 +1,6 @@
 import Link from "next/link";
-import React, { ReactNode } from "react";
-import projects, { allKebabTags } from "../../data/global";
+import { allKebabTags } from "../../data/global";
 import { kebabCase } from "../../data/utils";
-import resume from "../../pages/Resume";
 
 const tagPresent = (tag: string): boolean => allKebabTags.includes(tag);
 const softwareEngineer = [
@@ -75,7 +73,11 @@ export const Resume = () => {
                 className="inline w-6 mr-4 text-color-white"
                 alt="GitHub Logo"
               />
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/mitchaplin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
             </div>
@@ -86,7 +88,11 @@ export const Resume = () => {
                 className="inline w-6 mr-4"
                 alt="LinkedIn Logo"
               />
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 LinkedIn
               </a>
             </div>
@@ -96,7 +102,7 @@ export const Resume = () => {
                 className="inline w-6 mr-4"
                 alt="Globe icon"
               />
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/" rel="noopener noreferrer">
                 Portfolio
               </a>
             </div>
