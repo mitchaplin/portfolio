@@ -210,21 +210,21 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   <ul className="list-disc">
                     <li>
-                      Developing and maintaining user interfaces using React and
+                      Developed and maintained user interfaces using React and
                       TypeScript
                     </li>
                     <li>
-                      Developing and maintaining mobile applications using React
+                      Developed and maintained mobile applications using React
                       Native
                     </li>
                     <li>
-                      Creating micro-services and APIs using primarily Clojure,
+                      Created micro-services and APIs using primarily Clojure,
                       Postgres, and Kafka
                     </li>
                     <li>
-                      Working with UX designers to build React component
-                      libraries using Storybook; resulting in a pseudo design
-                      system used across all dev teams
+                      Worked with UX designers to build React component
+                      libraries using Storybook; resulting in a design system
+                      used across all dev teams
                     </li>
                     <li>
                       Acted as developer release lead during two successful
@@ -244,13 +244,12 @@ export const Resume = () => {
                   Description:
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
-                  As a full stack engineer, I've worn many hats during my 4+
-                  years at Singlewire Software. I have been privileged to be a
-                  part of several diverse teams, and worked on many truly unique
-                  and interesting projects. Some of these include React porting
-                  from Angular.js, integration efforts with many different
-                  companies including Microsoft, Twilio, Bandwidth, and
-                  RapidSOS, and microservice creation.
+                  As a full stack engineer I have been privileged to be a part
+                  of several diverse teams, and worked on many truly unique and
+                  interesting projects. Some of these include React porting from
+                  Angular.js, integration efforts with many different companies
+                  including Microsoft, Twilio, Bandwidth, and RapidSOS, and
+                  microservice creation.
                 </div>
               </section>
               <section className="mb-6">
@@ -355,13 +354,12 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   As a software test engineer my goal was to automate as much as
                   possible, cast the widest net, and find bugs before they
-                  reached manual testers or production. As one of four key
-                  automation engineers, we achieved a test suite that contained
-                  over 30,000 comprehensive tests that ran against our builds
-                  nightly. These generated build reports provided excellent
-                  feedback for management and developers on status of current
-                  work, and is now a staple of the development process at
-                  Singlewire Software.
+                  reached manual testers. As one of four key automation
+                  engineers, we achieved a test suite that contained over 30,000
+                  comprehensive tests that ran against our builds nightly. These
+                  generated build reports provided excellent feedback for
+                  management and developers on status of current work, and
+                  became a staple of the entire development process.
                 </div>
               </section>
               <section className="mb-6">
