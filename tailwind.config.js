@@ -9,6 +9,7 @@ module.exports = {
       sans: ["Be Vietnam Pro", "Inter", "system-ui", "sans"],
       monospace: ["DM Mono", "monospace"],
     },
+
     colors: {
       black: colors.black,
       white: colors.white,

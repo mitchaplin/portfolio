@@ -182,7 +182,7 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
                   Employer:
                 </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
+                <div className="lg:inline-block lg:w-8/12 w-full lg:text-left md:text-center">
                   <a
                     href="https://singlewire.com"
                     target="_blank"
@@ -199,7 +199,7 @@ export const Resume = () => {
                   <div>-</div>
                   <div>Nov. 2018</div>
                 </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
+                <div className="lg:inline-block lg:w-8/12 w-full lg:text-left md:text-center">
                   Software Engineer
                 </div>
               </section>
@@ -296,7 +296,7 @@ export const Resume = () => {
                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
                   Employer:
                 </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
+                <div className="lg:inline-block lg:w-8/12 w-full lg:text-left md:text-center">
                   <a
                     href="https://singlewire.com"
                     target="_blank"
@@ -312,7 +312,7 @@ export const Resume = () => {
                   <div>-</div>
                   <div>Jul. 2015</div>
                 </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
+                <div className="lg:inline-block lg:w-8/12 w-full lg:text-left md:text-center">
                   Software Test Engineer
                 </div>
               </section>

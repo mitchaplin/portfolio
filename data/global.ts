@@ -53,7 +53,7 @@ export const footer: Footer = {
         },
         {
           name: "Email",
-          link: "mailto:contact@mitchaplin@gmail.com",
+          link: "mailto:mitchaplin@gmail.com",
           icon: "/static/icons/mail.png",
           leavesWebsite: true,
         },

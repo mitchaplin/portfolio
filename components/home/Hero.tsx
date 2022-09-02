@@ -15,17 +15,17 @@ const Hero = () => {
               style={{ animationDelay: "0.3s" }}
               src="/static/images/me.jpg"
             />
-            <span className=" text-white mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+            <span className=" text-blue-light mt-[1rem] hover:-mt-2 transition-all duration-500 hover:duration-100">
               Mitch <span className=" text-blue-light ">Aplin</span>
             </span>
-            <div className=" text-blue-light mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+            <div className=" text-white mt-[1rem]  hover:-mt-2 transition-all duration-500 hover:duration-100">
               Software
-              <span className=" text-white hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+              <span className=" text-white  hover:-mt-2 transition-all duration-500 hover:duration-100">
                 {" "}
                 Engineer
               </span>
             </div>
-            <span className=" text-white mt-[1rem] hover:text-blue-light hover:-mt-2 transition-all duration-500 hover:duration-100">
+            <span className=" text-blue-light mt-[1rem] hover:-mt-2 transition-all duration-500 hover:duration-100">
               Full <span className=" text-blue-light ">Stack</span>
             </span>
           </div>
@@ -90,7 +90,6 @@ const Hero = () => {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
           />
         </a>
-
         <a
           href={"https://reactjs.org/"}
           target="_blank"
@@ -139,6 +138,7 @@ const Hero = () => {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
           />
         </a>
+        {/* md screen sizes */}
 
         <div className="flex flex-row">
           <ScrollLink
@@ -159,6 +159,54 @@ const Hero = () => {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="grid grid-cols-2 lg:hidden mb-[-25rem] mt-[6rem]">
+        <a
+          href={"https://reactjs.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            style={{ animationDelay: "0.6s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+        </a>
+        <a
+          href={"https://clojure.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            className="mt-[2rem] ml-[4rem]  w-[6rem]"
+            style={{ animationDelay: "0.1s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
+          />
+        </a>
+        <a
+          href={"https://www.postgresql.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="m-0"
+        >
+          <img
+            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            style={{ animationDelay: "0.5s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
+          />
+        </a>
+        <a
+          href={"https://www.typescriptlang.org/"}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="m-0"
+        >
+          <img
+            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            style={{ animationDelay: "0.8s" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          />
+        </a>
       </div>
     </>
   );
