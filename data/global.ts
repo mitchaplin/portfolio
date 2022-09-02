@@ -217,11 +217,10 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Advent of Code",
+    title: "Advent of Code - Clojure",
     desc: "AoC solutions spanning several years; Crafted in Clojure",
     img: "/static/images/advent-of-code.png",
-    link: "https://github.com/mitchaplin/advent-of-code",
-    github: "https://github.com/mitchaplin/advent-of-code",
+    github: "https://github.com/mitchaplin/advent-of-code-clojure",
     tags: ["Clojure", "Git"],
   },
 ];
