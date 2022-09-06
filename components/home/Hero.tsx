@@ -9,25 +9,29 @@ const Hero = () => {
         style={{ maxWidth: "1200px" }}
       >
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold">
-          <div className="flex">
-            <img
-              className="visible lg:block hidden sm:block w-[12rem] mr-[2rem] rounded"
-              style={{ animationDelay: "0.3s" }}
-              src="/static/images/me.jpg"
-            />
-            <span className=" text-blue-light mt-[1rem] hover:-mt-2 transition-all duration-500 hover:duration-100">
-              Mitch <span className=" text-blue-light ">Aplin</span>
-            </span>
-            <div className=" text-white mt-[1rem]  hover:-mt-2 transition-all duration-500 hover:duration-100">
-              Software
-              <span className=" text-white  hover:-mt-2 transition-all duration-500 hover:duration-100">
-                {" "}
-                Engineer
+          <div className="grid grid-flow-row">
+            <div className="flex items-center flex-col justify-center">
+              <img
+                className="visible lg:block hidden sm:block w-[12rem] rounded"
+                style={{ animationDelay: "0.3s", width: "20%" }}
+                src="/static/images/me.jpg"
+              />
+              <span className=" text-blue-light mt-[1rem]">
+                Mitch <span className=" text-blue-light ">Aplin</span>
+              </span>
+
+              <div className="flex grid-auto-row: max-content">
+                <div className=" text-white mt-[1rem]">
+                  Software
+                  <span className=" text-white"> Engineer</span>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center flex-col justify-center">
+              <span className=" text-blue-light mt-[1rem]">
+                Full <span className=" text-blue-light ">Stack</span>
               </span>
             </div>
-            <span className=" text-blue-light mt-[1rem] hover:-mt-2 transition-all duration-500 hover:duration-100">
-              Full <span className=" text-blue-light ">Stack</span>
-            </span>
           </div>
         </h1>
         <a
@@ -37,8 +41,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[38rem] lg:right-[44rem] w-[6rem]"
-            style={{ animationDelay: "0.1s" }}
+            className="icon lg:block hidden lg:top-[45rem] lg:right-[22rem] w-[6rem]"
+            style={{ animationDelay: "0.4s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
           />
         </a>
@@ -49,7 +53,7 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[38rem] lg:right-[10rem] w-[6rem]"
+            className="icon lg:block hidden lg:top-[55rem] lg:right-[12rem] w-[6rem]"
             style={{ animationDelay: "0.2s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           />
@@ -61,8 +65,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[24rem] lg:right-[14rem] w-[12rem]"
-            style={{ animationDelay: "0.3s" }}
+            className="icon lg:block hidden lg:top-[52rem] lg:right-[36rem] w-[12rem]"
+            style={{ animationDelay: "0.7s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/nodejs/nodejs-original-wordmark.svg"
           />
         </a>
@@ -73,8 +77,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[28rem] lg:right-[44rem] w-[6rem]"
-            style={{ animationDelay: "0.4s" }}
+            className="icon lg:block hidden lg:top-[45rem] lg:right-[45rem] w-[6rem]"
+            style={{ animationDelay: "0.1s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
           />
         </a>
@@ -85,7 +89,7 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[38em] lg:right-[56rem] w-[8rem]"
+            className="icon lg:block hidden lg:top-[55em] lg:right-[51rem] w-[8rem]"
             style={{ animationDelay: "0.5s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
           />
@@ -97,8 +101,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[28rem] lg:right-[58rem] w-[6rem]"
-            style={{ animationDelay: "0.6s" }}
+            className="icon lg:block hidden lg:top-[45rem] lg:right-[56rem] w-[6rem]"
+            style={{ animationDelay: "0.4s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
         </a>
@@ -109,8 +113,8 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[28rem] lg:right-[32rem] w-[6rem]"
-            style={{ animationDelay: "0.7s" }}
+            className="icon lg:block hidden lg:top-[45rem] lg:right-[34rem] w-[6rem]"
+            style={{ animationDelay: "0.9s" }}
             src="/static/icons/reactnative.png"
           />
         </a>
@@ -121,7 +125,7 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[28rem] lg:right-[4rem] w-[6rem]"
+            className="icon lg:block hidden lg:top-[45rem] lg:right-[10rem] w-[6rem]"
             style={{ animationDelay: "0.8s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
@@ -133,14 +137,14 @@ const Hero = () => {
           className="items-left flex"
         >
           <img
-            className="icon lg:block hidden lg:top-[36rem] lg:right-[24rem] w-[10rem]"
-            style={{ animationDelay: "0.09s" }}
+            className="icon lg:block hidden lg:top-[53rem] lg:right-[22rem] w-[10rem]"
+            style={{ animationDelay: "1.0s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
           />
         </a>
         {/* md screen sizes */}
 
-        <div className="flex flex-row">
+        <div className="flex flex-row align:left">
           <ScrollLink
             activeClass="active"
             className="mr-[2rem] text-blue-light"

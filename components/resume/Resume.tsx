@@ -152,25 +152,24 @@ export const Resume = () => {
           </div>
         </div>
         <div className="content w-full p-12">
+          <hr className="mt-2 mb-8" />
           <div id="profile" className="prose">
             <h2 className="section-headline">Profile</h2>
             <hr className="mt-8 mb-8" />
             <p className="text-left">
-              Proven Software Engineer with 4+ years of development experience,
-              paired with 3+ years of test automation experience. As a dedicated
-              problem solver, I display an expert skill in Javascript and
-              supporting languages / libraries / frameworks that solve real
-              world problems through code. Through my experience at Singlewire
-              Software, I have attained hands-on experience in industry standard
-              development, and have seen several mission critical projects
-              through from inception to deployment.
+              Experienced software engineer with a passion for developing
+              innovative software that accelerates the efficiency and
+              effectiveness of organizational success. Well-versed in modern
+              development technologies, procceses, and coding best practices to
+              create systems that are reliable and user-friendly. Skilled leader
+              who has the proven ability to motivate, educate, collaborate, and
+              lead a team of professionals to build and maintain software
+              programs. Confident communicator, strategic thinker, and resilient
+              engineer to develop software that is customized to meet a
+              company's organizational needs, highlight their core competencies,
+              and further their success.
             </p>
             <br />
-            <p className="text-left">
-              I am highly motivated in expanding my horizons day by day for
-              better performance, testing and user experience. Lifetime Learning
-              is a mantra I deeply subscribe to.
-            </p>
           </div>
           <hr className="mt-8 mb-8" />
 
@@ -227,14 +226,14 @@ export const Resume = () => {
                       used across all dev teams
                     </li>
                     <li>
-                      Acted as developer release lead during two successful
-                      software releases, shepherding all appropriate branches
-                      and build artifacts over the finishing line for a given
-                      release
+                      Sucessfully completed developer release lead roles during
+                      two software release cycles, shepherding all appropriate
+                      branches and build artifacts from creation, through the
+                      coding and merging processes, and into customers hands
                     </li>
                     <li>
-                      Mentored 2 junior developers and 2 interns; Familiarized
-                      them with the software development process
+                      Mentored 2 junior developers and 2 interns, training and
+                      guiding them through the software development process
                     </li>
                   </ul>
                 </div>
@@ -248,8 +247,7 @@ export const Resume = () => {
                   of several diverse teams, and worked on many truly unique and
                   interesting projects. Some of these include React porting from
                   Angular.js, integration efforts with many different companies
-                  including Microsoft, Twilio, Bandwidth, and RapidSOS, and
-                  microservice creation.
+                  including Microsoft, Twilio, Bandwidth, and RapidSOS.
                 </div>
               </section>
               <section className="mb-6">
@@ -258,10 +256,10 @@ export const Resume = () => {
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   <ul className="flex flex-wrap items-center list-none">
-                    {softwareEngineer.map((tech: string) => {
+                    {softwareEngineer.map((tech: string, idx: number) => {
                       const usedInPersonal = tagPresent(kebabCase(tech));
                       return (
-                        <li className="mr-2 mb-2">
+                        <li className="mr-2 mb-2" key={idx}>
                           <Link
                             href={
                               usedInPersonal
@@ -368,10 +366,10 @@ export const Resume = () => {
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
                   <ul className="flex flex-wrap items-center list-none">
-                    {softwareTestEngineer.map((tech: string) => {
+                    {softwareTestEngineer.map((tech: string, idx: number) => {
                       const usedInPersonal = tagPresent(kebabCase(tech));
                       return (
-                        <li className="mr-2 mb-2">
+                        <li className="mr-2 mb-2" key={idx}>
                           <Link
                             href={
                               usedInPersonal

@@ -223,6 +223,14 @@ const projects: Project[] = [
     github: "https://github.com/mitchaplin/advent-of-code-clojure",
     tags: ["Clojure", "Git"],
   },
+  {
+    id: 3,
+    title: "Advent of Code - Javascript",
+    desc: "AoC solutions spanning several years; Crafted in Javascript",
+    img: "/static/images/advent-of-code-2.png",
+    github: "https://github.com/mitchaplin/advent-of-code-js",
+    tags: ["Javascript", "Git"],
+  },
 ];
 
 export const tags: string[] = [];
