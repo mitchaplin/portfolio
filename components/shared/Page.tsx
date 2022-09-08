@@ -16,6 +16,7 @@ function Page({ defaultPage, meta: { title, desc }, children }: PageProps) {
     >
       <Head>
         <title>{pageTitle}</title>
+        <link rel="shortcut icon" href="/static/images/monkey.png" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
