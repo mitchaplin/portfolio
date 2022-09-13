@@ -240,18 +240,6 @@ export const Resume = () => {
               </section>
               <section className="mb-6">
                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                  Description:
-                </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
-                  As a full stack engineer I have been privileged to be a part
-                  of several diverse teams, and worked on many truly unique and
-                  interesting projects. Some of these include React porting from
-                  Angular.js, integration efforts with many different companies
-                  including Microsoft, Twilio, Bandwidth, and RapidSOS.
-                </div>
-              </section>
-              <section className="mb-6">
-                <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
                   Tools:
                 </div>
                 <div className="lg:inline-block lg:w-8/12 w-full text-left">
@@ -343,21 +331,6 @@ export const Resume = () => {
                       efficient and repeatable test plans.
                     </li>
                   </ul>
-                </div>
-              </section>
-              <section className="mb-6">
-                <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                  Description:
-                </div>
-                <div className="lg:inline-block lg:w-8/12 w-full text-left">
-                  As a software test engineer my goal was to automate as much as
-                  possible, cast the widest net, and find bugs before they
-                  reached manual testers. As one of four key automation
-                  engineers, we achieved a test suite that contained over 30,000
-                  comprehensive tests that ran against our builds nightly. These
-                  generated build reports provided excellent feedback for
-                  management and developers on status of current work, and
-                  became a staple of the entire development process.
                 </div>
               </section>
               <section className="mb-6">

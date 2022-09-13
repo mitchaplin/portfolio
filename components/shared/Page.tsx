@@ -11,7 +11,7 @@ function Page({ defaultPage, meta: { title, desc }, children }: PageProps) {
   }`;
   return (
     <div
-      className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"
+      className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible shadow-2xl shadow-blue-light"
       style={{ maxWidth: "1200px" }}
     >
       <Head>
