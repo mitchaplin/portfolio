@@ -30,11 +30,11 @@ export const Resume = () => {
     <>
       <main
         id="wrapper"
-        className="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl rounded-lg bg-blue-light"
+        className="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl md:rounded-lg bg-blue-light"
       >
         <div
           id="sidebar"
-          className="w-full sm:max-w-sm p-8 bg-black rounded-r-lg"
+          className="w-full sm:max-w-sm p-8 bg-black md:rounded-r-lg"
         >
           <div className="px-2 mb-12">
             <img

@@ -20,7 +20,7 @@ const Hero = () => {
                 Mitch <span className=" text-blue-light ">Aplin</span>
               </span>
 
-              <div className="flex grid-auto-row: max-content">
+              <div className="flex justify-center text-center">
                 <div className=" text-white mt-[1rem]">
                   Software
                   <span className=" text-white"> Engineer</span>
@@ -147,7 +147,7 @@ const Hero = () => {
         <div className="flex flex-row align:left">
           <ScrollLink
             activeClass="active"
-            className="mr-[2rem] text-blue-light"
+            className="lg:block md:block sm:block hidden mr-[2rem] text-blue-light"
             to="aboutme"
             spy={true}
             smooth={true}
@@ -157,21 +157,21 @@ const Hero = () => {
               <span className=" text-blue-light">More About Me</span>
             </div>
           </ScrollLink>
-          <Link className=" text-blue-light" href="/projects">
+          <Link className="text-blue-light" href="/projects">
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-white border-2 text-xl rounded-full border-blue-light bg-bg-primary hover:bg-gray-darker hover:text-white">
               <span className=" text-blue-light">My Projects</span>
             </div>
           </Link>
         </div>
       </div>
-      <div className="grid grid-cols-2 lg:hidden mb-[-25rem] mt-[6rem]">
+      <div className="relative heroElem lg:hidden mb-[-25rem] mt-[6rem] flex items-center flex-col justify-center">
         <a
           href={"https://reactjs.org/"}
           target="_blank"
           rel="noreferrer noopener"
         >
           <img
-            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            className="mt-[2rem] ml-[10rem] w-[6rem]"
             style={{ animationDelay: "0.6s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
@@ -182,7 +182,7 @@ const Hero = () => {
           rel="noreferrer noopener"
         >
           <img
-            className="mt-[2rem] ml-[4rem]  w-[6rem]"
+            className="mt-[-6rem] mr-[8rem] h-[6rem] w-[6rem]"
             style={{ animationDelay: "0.1s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
           />
@@ -194,7 +194,7 @@ const Hero = () => {
           className="m-0"
         >
           <img
-            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            className="mt-[6rem] ml-[11rem] w-[6rem]"
             style={{ animationDelay: "0.5s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
           />
@@ -206,7 +206,7 @@ const Hero = () => {
           className="m-0"
         >
           <img
-            className="mt-[2rem] ml-[4rem] w-[6rem]"
+            className="mt-[-6rem] mr-[8rem] w-[6rem]"
             style={{ animationDelay: "0.8s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
