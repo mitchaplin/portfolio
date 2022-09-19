@@ -182,7 +182,7 @@ const Hero = () => {
           rel="noreferrer noopener"
         >
           <img
-            className="mt-[-6rem] mr-[8rem] h-[6rem] w-[6rem]"
+            className="mt-[-6rem] mr-[10rem] h-[6rem] w-[6rem]"
             style={{ animationDelay: "0.1s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
           />
@@ -206,7 +206,7 @@ const Hero = () => {
           className="m-0"
         >
           <img
-            className="mt-[-6rem] mr-[8rem] w-[6rem]"
+            className="mt-[-6rem] mr-[10rem] w-[6rem]"
             style={{ animationDelay: "0.8s" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
