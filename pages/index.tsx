@@ -12,7 +12,7 @@ export default function Home() {
       }}
     >
       <Hero />
-      <div className="mt-[32rem] space-y-32">
+      <div className="mt-[6rem] space-y-32">
         <AboutMe />
         <Experience />
       </div>

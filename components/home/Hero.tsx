@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <>
       <div
-        className="relative heroElem w-full pt-16 m-auto flex justify-center text-left flex-col items-center z-1"
+        className="heroElem w-full pt-16 m-auto flex justify-center text-left flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold">
+        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold">
           <div className="grid grid-flow-row">
             <div className="flex items-center flex-col justify-center">
               <img
@@ -34,116 +34,6 @@ const Hero = () => {
             </div>
           </div>
         </h1>
-        <a
-          href={"https://clojure.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[45rem] lg:right-[22rem] w-[6rem]"
-            style={{ animationDelay: "0.4s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
-          />
-        </a>
-        <a
-          href={"https://www.javascript.com/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[55rem] lg:right-[12rem] w-[6rem]"
-            style={{ animationDelay: "0.2s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          />
-        </a>
-        <a
-          href={"https://nodejs.org/en/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[52rem] lg:right-[36rem] w-[12rem]"
-            style={{ animationDelay: "0.7s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/nodejs/nodejs-original-wordmark.svg"
-          />
-        </a>
-        <a
-          href={"https://git-scm.com/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[45rem] lg:right-[45rem] w-[6rem]"
-            style={{ animationDelay: "0.1s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-          />
-        </a>
-        <a
-          href={"https://www.postgresql.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[55em] lg:right-[51rem] w-[8rem]"
-            style={{ animationDelay: "0.5s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
-          />
-        </a>
-        <a
-          href={"https://reactjs.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[45rem] lg:right-[56rem] w-[6rem]"
-            style={{ animationDelay: "0.4s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          />
-        </a>
-        <a
-          href={"https://reactnative.dev/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[45rem] lg:right-[34rem] w-[6rem]"
-            style={{ animationDelay: "0.9s" }}
-            src="/static/icons/reactnative.png"
-          />
-        </a>
-        <a
-          href={"https://www.typescriptlang.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[45rem] lg:right-[10rem] w-[6rem]"
-            style={{ animationDelay: "0.8s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-          />
-        </a>
-        <a
-          href={"https://nextjs.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="items-left flex"
-        >
-          <img
-            className="icon lg:block hidden lg:top-[53rem] lg:right-[22rem] w-[10rem]"
-            style={{ animationDelay: "1.0s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-          />
-        </a>
-        {/* md screen sizes */}
-
         <div className="flex flex-row align:left">
           <ScrollLink
             activeClass="active"
@@ -163,54 +53,6 @@ const Hero = () => {
             </div>
           </Link>
         </div>
-      </div>
-      <div className="relative heroElem lg:hidden mb-[-25rem] mt-[6rem] flex items-center flex-col justify-center">
-        <a
-          href={"https://reactjs.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img
-            className="mt-[2rem] ml-[10rem] w-[6rem]"
-            style={{ animationDelay: "0.6s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          />
-        </a>
-        <a
-          href={"https://clojure.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img
-            className="mt-[-6rem] mr-[10rem] h-[6rem] w-[6rem]"
-            style={{ animationDelay: "0.1s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/clojure/clojure-original.svg"
-          />
-        </a>
-        <a
-          href={"https://www.postgresql.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="m-0"
-        >
-          <img
-            className="mt-[6rem] ml-[11rem] w-[6rem]"
-            style={{ animationDelay: "0.5s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg"
-          />
-        </a>
-        <a
-          href={"https://www.typescriptlang.org/"}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="m-0"
-        >
-          <img
-            className="mt-[-6rem] mr-[10rem] w-[6rem]"
-            style={{ animationDelay: "0.8s" }}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-          />
-        </a>
       </div>
     </>
   );
