@@ -5,7 +5,7 @@ import Page from "../components/shared/Page";
 const resume = () => {
   return (
     <Page
-      defaultPage="resume"
+      defaultPage="Resume"
       meta={{
         title: "Resume",
         desc: "My resume",
