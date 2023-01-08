@@ -20,7 +20,12 @@ function Footer() {
                       >
                         {item.icon && (
                           <span className="inline-flex items-center mr-2">
-                            <Image src={item.icon} width={32} height={32} />
+                            <Image
+                              src={item.icon}
+                              width={32}
+                              height={32}
+                              alt="Item Icon"
+                            />
                           </span>
                         )}
                         {item.name}

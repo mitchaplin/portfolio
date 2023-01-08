@@ -20,32 +20,32 @@ export const ProjectCard = ({ project }: any) => {
           <a href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
-          <div className="space-x-4">
-            {project.link && (
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/static/icons/link.png"
-                  width={24}
-                  height={24}
-                  alt="Github Icon"
-                />
-              </a>
-            )}
-            {project.github && (
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/static/icons/github.png"
-                  width={24}
-                  height={24}
-                  alt="Github Icon"
-                />
-              </a>
-            )}
-          </div>
+          {project.role && (
+            <span className="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300 h-5">
+              {project.role}
+            </span>
+          )}
+
+          {project.link && (
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/static/icons/link.png"
+                width={24}
+                height={24}
+                alt="Github Icon"
+              />
+            </a>
+          )}
+          {project.github && (
+            <a href={project.github} target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/static/icons/github.png"
+                width={24}
+                height={24}
+                alt="Github Icon"
+              />
+            </a>
+          )}
         </div>
         <p className="text-gray text-left text-sm">{project.desc}</p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">

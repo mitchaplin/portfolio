@@ -182,6 +182,7 @@ export type Project = {
   desc: string;
   img: string;
   link?: string;
+  role?: "author" | "contributor";
   github?: string;
   tags: string[];
 };
@@ -189,19 +190,21 @@ export type Project = {
 const projects: Project[] = [
   {
     id: 0,
-    title: "Portfolio",
+    title: "My Personal Portfolio",
     desc: "You're here! My personal portfolio",
     img: "/static/images/folio.png",
     link: "https://mitchaplin.dev",
+    role: 'author',
     github: "https://github.com/mitchaplin/portfolio",
     tags: ["NextJS", "React", "Typescript",  "Javascript", "Tailwind", "Git"],
   },
   {
     id: 1,
-    title: "Soft Rain",
+    title: "Soft Rain - Weather App",
     desc: "A weather app leveraging OpenWeatherApi",
     img: "/static/images/soft-rain-ss.png",
     link: "https://rain.mitchaplin.dev",
+    role: 'author',
     github: "https://github.com/mitchaplin/soft-rain",
     tags: [
       "React",
@@ -220,6 +223,7 @@ const projects: Project[] = [
     title: "Advent of Code - Clojure",
     desc: "AoC solutions spanning several years; Crafted in Clojure",
     img: "/static/images/advent-of-code.png",
+    role: 'author',
     github: "https://github.com/mitchaplin/advent-of-code-clojure",
     tags: ["Clojure", "Git"],
   },
@@ -228,8 +232,29 @@ const projects: Project[] = [
     title: "Advent of Code - Javascript",
     desc: "AoC solutions spanning several years; Crafted in Javascript",
     img: "/static/images/advent-of-code-2.png",
+    role: 'author',
     github: "https://github.com/mitchaplin/advent-of-code-js",
     tags: ["Javascript", "Git"],
+  },
+  {
+    id: 4,
+    title: "Doggo Sports",
+    desc: "The ultimate all-in-one resource for dog sports lovers",
+    img: "/static/images/doggo-ss.png",
+    role: 'contributor',
+    link: "https://doggosports.com",
+    tags: [
+      "React",
+      "Typescript",
+      "Javascript",
+      "Mantine UI",
+      "Stripe API",
+      "PlanetScale",
+      "tRPC",
+      "Prisma",
+      "Vercel CLI",
+      "Git"
+    ],
   },
 ];
 
