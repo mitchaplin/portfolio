@@ -199,7 +199,7 @@ const projects: Project[] = [
     tags: ["NextJS", "React", "Typescript", "Javascript", "Tailwind", "Git"],
   },
   {
-    id: 2,
+    id: 1,
     title: "Recollection",
     desc: "A flash card app for learning",
     img: "/static/images/recollection.png",
@@ -217,6 +217,16 @@ const projects: Project[] = [
       "T3-App",
       "Git",
     ],
+  },
+  {
+    id: 2,
+    title: "Challenges",
+    desc: "A home base for Front end related challenges",
+    img: "/static/images/challenges.png",
+    link: "https://challenges.mitchaplin.dev",
+    role: "author",
+    github: "https://github.com/mitchaplin/frontend-challenges",
+    tags: ["NextJS", "React", "Typescript", "Tailwind", "Git"],
   },
   {
     id: 3,
