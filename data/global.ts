@@ -230,7 +230,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Soft Rain - Weather App",
+    title: "Soft Rain",
     desc: "A weather app leveraging OpenWeatherApi",
     img: "/static/images/soft-rain-ss.png",
     link: "https://rain.mitchaplin.dev",
@@ -250,8 +250,8 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Advent of Code - Clojure",
-    desc: "AoC solutions spanning several years; Crafted in Clojure",
+    title: "AoC - Clojure",
+    desc: "Advent of Code solutions spanning several years; Crafted in Clojure",
     img: "/static/images/advent-of-code.png",
     role: "author",
     github: "https://github.com/mitchaplin/advent-of-code-clojure",
@@ -259,8 +259,8 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Advent of Code - Javascript",
-    desc: "AoC solutions spanning several years; Crafted in Javascript",
+    title: "AoC - Javascript",
+    desc: "Advent of Code  solutions spanning several years; Crafted in Javascript",
     img: "/static/images/advent-of-code-2.png",
     role: "author",
     github: "https://github.com/mitchaplin/advent-of-code-js",

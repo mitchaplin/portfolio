@@ -16,36 +16,44 @@ export const ProjectCard = ({ project }: any) => {
         <img className="w-full rounded-md h-40" src={project.img} />
       </a>
       <div className="w-full mt-5">
-        <div className="flex projects-center justify-between">
-          <a href={project.link || project.github} target="_blank">
-            <h3 className="text-lg font-bold">{project.title}</h3>
-          </a>
-          {project.role && (
-            <span className="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300 h-5">
-              {project.role}
-            </span>
-          )}
+        <div className="flex flex-grow justify-between">
+          <div>
+            <a href={project.link || project.github} target="_blank">
+              <h3 className="text-lg font-bold">{project.title}</h3>
+            </a>
+          </div>
+          <div className="flex flex-row gap-4 ml-4 mt-1">
+            {project.role && (
+              <span className="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300 h-5">
+                {project.role}
+              </span>
+            )}
 
-          {project.link && (
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/static/icons/link.png"
-                width={24}
-                height={24}
-                alt="Github Icon"
-              />
-            </a>
-          )}
-          {project.github && (
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/static/icons/github.png"
-                width={24}
-                height={24}
-                alt="Github Icon"
-              />
-            </a>
-          )}
+            {project.link && (
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/static/icons/link.png"
+                  width={24}
+                  height={24}
+                  alt="Github Icon"
+                />
+              </a>
+            )}
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/static/icons/github.png"
+                  width={24}
+                  height={24}
+                  alt="Github Icon"
+                />
+              </a>
+            )}
+          </div>
         </div>
         <p className="text-gray text-left text-sm">{project.desc}</p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
