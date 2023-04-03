@@ -96,8 +96,8 @@ export const languages: Language[] = [
     icon: "/static/icons/reactnative.png",
   },
   {
-    title: "PostgreSQL",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/postgresql/postgresql-original-wordmark.svg",
+    title: "SQL",
+    icon: "/static/icons/sql.png",
   },
   {
     title: "Javascript",
