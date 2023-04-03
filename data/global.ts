@@ -98,6 +98,7 @@ export const languages: Language[] = [
   {
     title: "SQL",
     icon: "/static/icons/sql.png",
+    style: { width: "2rem" },
   },
   {
     title: "Javascript",
@@ -159,8 +160,8 @@ export const technologies: Technology[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/gitlab/gitlab-plain-wordmark.svg",
   },
   {
-    title: "Firebase",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    title: "tRPC",
+    icon: "/static/icons/trpc.svg",
   },
   {
     title: "AWS",
