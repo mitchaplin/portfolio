@@ -178,7 +178,7 @@ export const technologies: Technology[] = [
 ];
 
 export type Project = {
-  id: number;
+  id: string;
   title: string;
   desc: string;
   img: string;
@@ -190,7 +190,7 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    id: 0,
+    id: "portfolio",
     title: "My Personal Portfolio",
     desc: "You're here! My personal portfolio",
     img: "/static/images/folio.png",
@@ -200,7 +200,26 @@ const projects: Project[] = [
     tags: ["NextJS", "React", "Typescript", "Javascript", "Tailwind", "Git"],
   },
   {
-    id: 1,
+    id: 'homelytics',
+    title: "Recollection",
+    desc: "A realtors tool for tracking and managing leads",
+    img: "/static/images/construction.png",
+    link: "https://homelytics.mitchaplin.dev",
+    role: "author",
+    github: "https://github.com/mitchaplin/homelytics",
+    tags: [
+      "NextJS",
+      "React",
+      "Typescript",
+      "Tailwind",
+      "Drizzle",
+      "Postgres",
+      "T3-App",
+      "Git",
+    ],
+  },
+  {
+    id: 'recollection',
     title: "Recollection",
     desc: "A flash card app for learning",
     img: "/static/images/recollection.png",
@@ -220,7 +239,7 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 2,
+    id: "challenges",
     title: "Challenges",
     desc: "A home base for Front end related challenges",
     img: "/static/images/challenges.png",
@@ -230,7 +249,7 @@ const projects: Project[] = [
     tags: ["NextJS", "React", "Typescript", "Tailwind", "Git"],
   },
   {
-    id: 3,
+    id: "soft-rain",
     title: "Soft Rain",
     desc: "A weather app leveraging OpenWeatherApi",
     img: "/static/images/soft-rain-ss.png",
@@ -250,7 +269,7 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: "aoc-clojure",
     title: "AoC - Clojure",
     desc: "Advent of Code solutions spanning several years; Crafted in Clojure",
     img: "/static/images/advent-of-code.png",
@@ -259,7 +278,7 @@ const projects: Project[] = [
     tags: ["Clojure", "Git"],
   },
   {
-    id: 5,
+    id: "aoc-js",
     title: "AoC - Javascript",
     desc: "Advent of Code  solutions spanning several years; Crafted in Javascript",
     img: "/static/images/advent-of-code-2.png",
@@ -268,7 +287,7 @@ const projects: Project[] = [
     tags: ["Javascript", "Git"],
   },
   {
-    id: 6,
+    id: "doggo-sports",
     title: "Doggo Sports",
     desc: "The ultimate all-in-one resource for dog sports lovers",
     img: "/static/images/doggo-ss.png",
