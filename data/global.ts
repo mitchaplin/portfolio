@@ -202,7 +202,7 @@ const projects: Project[] = [
   {
     id: 'homelytics',
     title: "Homelytics",
-    desc: "A realtors tool for tracking and managing leads",
+    desc: "A realtor's toolkit for tracking leads and managing clients",
     img: "/static/images/construction.png",
     link: "https://homelytics.mitchaplin.dev",
     role: "author",
