@@ -23,12 +23,15 @@ export const ProjectCard = ({ project }: any) => {
             </a>
           </div>
           <div className="flex flex-row gap-4 ml-4 mt-1">
-            {project.role && (
+            {console.log(project.role)}
+            {project.role == "contributor" ? (
               <span className="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300 h-5">
+                {project.role}
+              </span> ) : (
+              <span className="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300 h-5">
                 {project.role}
               </span>
             )}
-
             {project.link && (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <Image
