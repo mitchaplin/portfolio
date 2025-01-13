@@ -190,16 +190,6 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    id: "portfolio",
-    title: "My Personal Portfolio",
-    desc: "You're here! My personal portfolio",
-    img: "/static/images/folio.png",
-    link: "https://mitchaplin.dev",
-    role: "author",
-    github: "https://github.com/mitchaplin/portfolio",
-    tags: ["NextJS", "React", "Typescript", "Javascript", "Tailwind", "Git"],
-  },
-  {
     id: 'homelytics',
     title: "Homelytics",
     desc: "A realtor's toolkit for tracking leads and managing clients",
@@ -285,6 +275,16 @@ const projects: Project[] = [
     role: "author",
     github: "https://github.com/mitchaplin/advent-of-code-js",
     tags: ["Javascript", "Git"],
+  },
+  {
+    id: "portfolio",
+    title: "My Personal Portfolio",
+    desc: "You're here! My personal portfolio",
+    img: "/static/images/folio.png",
+    link: "https://mitchaplin.dev",
+    role: "author",
+    github: "https://github.com/mitchaplin/portfolio",
+    tags: ["NextJS", "React", "Typescript", "Javascript", "Tailwind", "Git"],
   },
   {
     id: "doggo-sports",
