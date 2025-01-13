@@ -253,7 +253,7 @@ const projects: Project[] = [
     title: "Soft Rain",
     desc: "A weather app leveraging OpenWeatherApi",
     img: "/static/images/soft-rain-ss.png",
-    link: "https://rain.mitchaplin.dev",
+    link: "https://soft-rain.mitchaplin.dev",
     role: "author",
     github: "https://github.com/mitchaplin/soft-rain",
     tags: [
