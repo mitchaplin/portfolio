@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 body {
   width: 100%;
@@ -116,6 +116,16 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@keyframes projScale {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 @keyframes breathe {
   from {
     opacity: 0;
@@ -138,12 +148,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .heroElem {
-  animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
+  animation: scaleDownIn 1s cubic-bezier(0.87, 0, 0.13, 1);
 }
 
-
 .heroElem .icon {
-  animation: float  2s infinite ease-in-out;
+  animation: float 2s infinite ease-in-out;
 }
 
 .heroTitle .icon {
@@ -153,4 +162,8 @@ body::-webkit-scrollbar-thumb {
 .icon {
   @apply absolute z-[10];
   animation: breathe 2s;
+}
+
+.projectElem {
+  animation: projScale 1s cubic-bezier(0.87, 0, 0.13, 1);
 }
