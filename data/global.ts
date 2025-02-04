@@ -118,7 +118,7 @@ export const languages: Language[] = [
   },
   {
     title: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/tailwindcss/tailwindcss-plain.svg",
   },
   {
     title: "MaterialUI",
@@ -190,7 +190,7 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    id: 'homelytics',
+    id: "homelytics",
     title: "Homelytics",
     desc: "A realtor's toolkit for tracking leads and managing clients",
     img: "/static/images/construction.png",
@@ -209,7 +209,7 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 'recollection',
+    id: "recollection",
     title: "Recollection",
     desc: "A flash card app for learning",
     img: "/static/images/recollection.png",
@@ -237,6 +237,23 @@ const projects: Project[] = [
     role: "author",
     github: "https://github.com/mitchaplin/frontend-challenges",
     tags: ["NextJS", "React", "Typescript", "Tailwind", "Git"],
+  },
+  {
+    id: "local-llm-chatbot",
+    title: "Local LLM Chatbot",
+    desc: "A react wrapper for interacting with a local LLM",
+    img: "/static/images/llm-chatbot.png",
+    role: "author",
+    github: "https://github.com/mitchaplin/local-llm-chatbot",
+    tags: [
+      "Tanstack Query",
+      "Tanstack Router",
+      "Tanstack Start",
+      "React",
+      "Typescript",
+      "Tailwind",
+      "Git",
+    ],
   },
   {
     id: "soft-rain",
