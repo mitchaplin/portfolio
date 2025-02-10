@@ -160,7 +160,7 @@ export const Resume = () => {
               Experienced software engineer with a passion for developing
               innovative software that accelerates the efficiency and
               effectiveness of organizational success. Well-versed in modern
-              development technologies, procceses, and coding best practices to
+              development technologies, processes, and coding best practices to
               create systems that are reliable and user-friendly. Skilled leader
               who has the proven ability to motivate, educate, collaborate, and
               lead a team of professionals to build and maintain software

@@ -190,21 +190,22 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    id: "homelytics",
-    title: "Homelytics",
+    id: "clientrove",
+    title: "clientrove",
     desc: "A realtor's toolkit for tracking leads and managing clients",
     img: "/static/images/construction.png",
-    link: "https://homelytics.mitchaplin.dev",
+    link: "https://clientrove.mitchaplin.dev",
     role: "author",
-    github: "https://github.com/mitchaplin/homelytics",
+    github: "https://github.com/mitchaplin/clintrove",
     tags: [
       "NextJS",
       "React",
       "Typescript",
       "Tailwind",
+      "Shadcn",
+      "Zod",
       "Drizzle",
       "Postgres",
-      "T3-App",
       "Git",
     ],
   },
